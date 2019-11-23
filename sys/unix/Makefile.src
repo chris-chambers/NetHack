@@ -186,8 +186,8 @@ REGEXOBJ = posixregex.o
 #
 # files for a straight tty port using no native windowing system
 WINTTYSRC = ../win/tty/getline.c ../win/tty/termcap.c ../win/tty/topl.c \
-	../win/tty/wintty.c
-WINTTYOBJ = getline.o termcap.o topl.o wintty.o
+	../win/tty/wintty.c tile.c
+WINTTYOBJ = getline.o termcap.o topl.o wintty.o tile.o
 #
 # files for an X11 port
 # (tile.c is a generated source file)
